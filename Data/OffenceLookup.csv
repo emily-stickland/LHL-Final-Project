@@ -1,0 +1,220 @@
+﻿Statute,Offence Number,Offence,Election,Discharge Available,SS Available,CSO Available,Maximum (Summary)(Years),Maximum (Indictable)(Years)
+CCC,56.1 1,Possess ID docs,Hybrid,Y,Y,Y,2,5
+CCC,72 1,Forcible entry,Hybrid,Y,Y,Y,2,2
+CCC,82 1,Make/possess explosives,Hybrid,Y,Y,Y,2,5
+CCC,85 1,Use firearm in commission of offence,Indictable,N,N,N,5,14
+CCC,85 2,Use imitation firearm in commission of offence,Indictable,N,N,N,5,14
+CCC,86,Unsafe storage of a firearm,Hybrid,Y,Y,Y,2,2
+CCC,86 1,Unsafe storage of a firearm,Hybrid,Y,Y,Y,2,2
+CCC,86 2,Careless use of firearm,Hybrid,Y,Y,Y,2,2
+CCC,87,Pointing a firearm,Hybrid,Y,Y,Y,2,5
+CCC,87 1,Pointing a firearm,Hybrid,Y,Y,Y,2,5
+CCC,88,Possession of a weapon for a dangerous purpose,Hybrid,Y,Y,Y,2,10
+CCC,88 1,Possession of a weapon for a dangerous purpose,Hybrid,Y,Y,Y,2,10
+CCC,90,Carrying concealed weapon,Hybrid,Y,Y,Y,2,5
+CCC,90 1,Carrying concealed weapon,Hybrid,Y,Y,Y,2,5
+CCC,91,Unauthorized possession of firearm,Hybrid,Y,Y,Y,2,5
+CCC,91 1,Unauthorized possession of firearm,Hybrid,Y,Y,Y,2,5
+CCC,91 2,Possess prohibited weapon,Hybrid,Y,Y,Y,2,5
+CCC,92,Possn. of firearm knowing possn. unauthorized,Indictable,Y,Y,Y,2,10
+CCC,95,Possn. of prohibited weapon with ammunition,Hybrid,Y,Y,Y,2,10
+CCC,117.01 1,Possess firearm/weapon while prohibited,Hybrid,Y,Y,Y,2,10
+CCC,124 1 a,Selling an office,Hybrid,Y,Y,Y,2,5
+CCC,126,Disobey Act of Parliament,Hybrid,Y,Y,Y,2,2
+CCC,127 1,Disobey Court Order,Hybrid,Y,Y,Y,2,2
+CCC,130 1 a,Impersonate Peace Officer,Hybrid,Y,Y,Y,2,5
+CCC,129 a,Obstruct a Peace Officer,Hybrid,Y,Y,Y,2,2
+CCC,131,Perjury,Indictable,N,Y,Y,5,14
+CCC,132,Perjury,Indictable,N,Y,Y,5,14
+CCC,136,Giving Contradictory Evidence with Intent to mislead [1],Indictable,N,Y,Y,5,14
+CCC,137,Fabricating Evidence with Intent to Mislead,Indictable,N,Y,Y,5,14
+CCC,139 1,Obtructing justice,Hybrid,Y,Y,Y,2,2
+CCC,139 2,Obtructing justice,Hybrid,Y,Y,Y,2,10
+CCC,139 3 a,Obtructing justice,Hybrid,Y,Y,Y,2,2
+CCC,140 1 a,Public mischief - false statement,Hybrid,Y,Y,Y,2,5
+CCC,140 1 b,Public mischief - falsely causing suspicion,Hybrid,Y,Y,Y,2,5
+CCC,140 1 c,Public mischief - false reporting of crime,Hybrid,Y,Y,Y,2,5
+CCC,144 1 a,Escape lawful custody,Hybrid,Y,Y,Y,2,10
+CCC,144 1 b,Escape lawful custody,Hybrid,Y,Y,Y,2,10
+CCC,145 1,Unlawfully at large,Hybrid,Y,Y,Y,2,2
+CCC,145 2 a,FTA,Hybrid,Y,Y,Y,2,2
+CCC,145 2 b,FTA,Hybrid,Y,Y,Y,2,2
+CCC,145 2 c,FTA,Hybrid,Y,Y,Y,2,2
+CCC,145 2 d,FTA,Hybrid,Y,Y,Y,2,2
+CCC,145 3,FTA,Hybrid,Y,Y,Y,2,2
+CCC,145 4,FTA / Breach (recog / undertaking),Hybrid,Y,Y,Y,2,2
+CCC,145 4 a,Fail to comply with UT,Hybrid,Y,Y,Y,2,2
+CCC,145 4 b,Fail to comply with UT,Hybrid,Y,Y,Y,2,2
+CCC,145 5 a,Fail to comply with Order,Hybrid,Y,Y,Y,2,2
+CCC,145 5 b,Fail to comply with Order,Hybrid,Y,Y,Y,2,2
+CCC,151,Sexual Interference w/ child,Hybrid,N,N,N,2,14
+CCC,151 a,Sexual Interference w/ child,Indictable,N,N,N,5,14
+CCC,151 b,Sexual Interference w/ child,Summary,N,N,N,2,2
+CCC,152,Invitation to sexual touching,Hybrid,N,N,N,2,14
+CCC,153 1 a,Sexual exploitation of child,Hybrid,N,N,N,2,14
+CCC,153 1 b,Sexual exploitation of child,Hybrid,N,N,N,2,14
+CCC,153 a,Sexual exploitation of child,Hybrid,N,N,N,2,14
+CCC,162.1 1,Voyeurism,Hybrid,Y,Y,Y,2,5
+CCC,162 1 a,Voyeurism,Hybrid,Y,Y,Y,2,5
+CCC,163.1 2,Making of Child Pornography,Indictable,N,N,N,2,14
+CCC,163.1 4,Possession of Child Pornography,Hybrid,N,N,N,2,10
+CCC,172.1,Child Luring,Hybrid,N,N,N,2,10
+,173,Indecent Act,Hybrid,N,N,N,2,2
+CCC,173 1,Indecent Act,Hybrid,N,Y,Y,2,2
+,173 2,Indecent Act - Expose genitals to child ,Hybrid,N,N,N,2,2
+CCC,175,Causing a disturbance,Summary,Y,Y,Y,2,2
+CCC,175 1 a,Causing a disturbance,Summary,Y,Y,Y,2,2
+CCC,177,Trespass at night,Summary,Y,Y,Y,2,2
+CCC,177.01 1,Trespass at night,Summary,Y,Y,Y,2,2
+CCC,177.05 1,Trespass at night,Summary,Y,Y,Y,2,2
+CCC,177.05 4 b,Trespass at night,Summary,Y,Y,Y,2,2
+CCC,180,Nuisance,Summary,Y,Y,Y,2,2
+CCC,201 1,Keeping  gaming house,Hybrid,Y,Y,Y,2,2
+CCC,235 1,Murder ,Indictable,N,N,N,5,25
+CCC,236 b,Murder ,Indictable,N,N,N,5,25
+CCC,244,Discharging firearm w/ intent,Indictable,N,N,Y,5,14
+CCC,244 1,Discharging firearm w/ intent,Indictable,N,N,Y,5,14
+CCC,244 2 a,Discharging firearm recklessly,Indictable,N,N,Y,5,14
+CCC,244 2 b,Discharging firearm recklessly,Indictable,N,N,Y,5,14
+CCC,244.2 3 b,Discharging firearm recklessly,Indictable,N,N,N,5,14
+CCC,249.1,Flight from Police (repealed),Hybrid,Y,Y,Y,2,5
+CCC,249 4,Flight from Police causing bodily harm (repealed),Indictable,Y,Y,Y,2,14
+CCC,252 1.2,Fail to stop at scene (repealed),Hybrid,Y,Y,Y,2,10
+CCC,253 1 a,Impaired / over 0.08 (repealed),Hybrid,Y,Y,Y,2,5
+CCC,264,Criminal Harrassment,Hybrid,Y,Y,Y,2,5
+CCC,264.1 1,Utt Threats,Hybrid,Y,Y,Y,2,5
+CCC,264.1 1 a,Utt Threats,Hybrid,Y,Y,Y,2,5
+CCC,264.1 1 b,Utt Threats,Hybrid,Y,Y,Y,2,5
+CCC,266,Assault,Hybrid,Y,Y,Y,2,5
+CCC,267 a,Assault w/ weapon,Hybrid,Y,Y,Y,2,10
+CCC,267 b,ACBH,Hybrid,Y,Y,Y,2,10
+CCC,267 c,Assault by choking,Hybrid,Y,Y,Y,2,10
+CCC,268 2,Agg assault,Indictable,N,N,Y,5,14
+CCC,268,Agg assault,Indictable,N,N,Y,5,14
+CCC,270 1,Assault PO,Hybrid,Y,Y,Y,2,5
+CCC,270 1 a,Assault PO,Hybrid,Y,Y,Y,2,5
+CCC,270.01 1 a,Assault PO w/weapon,Hybrid,Y,Y,Y,2,10
+CCC,270.01 1 b,ACBH PO,Hybrid,Y,Y,Y,2,10
+CCC,270.02,Agg assault PO,Indictable,Y,Y,Y,2,14
+CCC,271,Sexual Assault,Hybrid,N,N,Y,2,14
+CCC,271 1,Sexual Assault,Hybrid,N,N,Y,2,14
+CCC,272 1,Sexual Assault with a weapon,Indictable,N,N,N,5,14
+CCC,272 2 b,Sexual Assault with a weapon,Indictable,N,N,N,5,14
+CCC,273,Aggravated Sexual Assault,Indictable,N,N,N,5,25
+CCC,273 1,Aggravated Sexual Assault (with Weapon),Indictable,N,N,N,5,25
+CCC,273 2 a,Aggravated Sexual Assault (with Weapon),Indictable,N,N,N,5,25
+CCC,279 1.1 a.1,Kidnapping,Indictable,N,N,Y,5,25
+CCC,279 2,Kidnapping,Indictable,N,N,Y,5,25
+CCC,279 1 a,Taking a hostage,Indictable,N,N,Y,5,25
+CCC,320.13,Dangerous driving,Hybrid,Y,Y,Y,2,10
+CCC,320.13 1,Dangerous driving,Hybrid,Y,Y,Y,2,10
+CCC,320.13 2,Dangerous driving causing bodily harm,Hybrid,N,Y,Y,2,14
+CCC,320.14,Driving Impaired,Hybrid,Y,Y,Y,2,5
+CCC,320.14 1 a,Driving Impaired,Hybrid,Y,Y,Y,2,5
+CCC,320.14 1 b,Driving over 0.08,Hybrid,Y,Y,Y,2,5
+CCC,320.14 2,Dangerous driving causing bodily harm,Hybrid,Y,Y,Y,5,14
+CCC,320.15 1,Fail to comply w/ BAC Demand,Hybrid,Y,Y,Y,2,10
+CCC,320.15 2,Fail to comply w/ BAC Demand after accident,Hybrid,N,N,N,5,10
+CCC,320.15 3,Fail to comply w/ BAC Demand after accident causing death,Indictable,N,N,N,5,25
+CCC,320.16 1,Failing to stop at scene of accident,Hybrid,Y,Y,Y,2,5
+CCC,320.16 2,Failing to stop at scene causing bodily harm,Indictable,N,N,N,5,14
+CCC,320.16 3,Failing to stop at scene causing death,Indictable,N,N,N,5,25
+CCC,320.17,Flight from police,Hybrid,Y,Y,Y,2,5
+CCC,320.18 1 a,DWP,Hybrid,Y,Y,Y,2,2
+CCC,333.1 1,Theft of motor vehicle,Hybrid,Y,Y,Y,2,10
+CCC,334,Theft,Hybrid,Y,Y,Y,2,2
+CCC,334 a,"Theft over $5,000",Hybrid,Y,Y,Y,2,10
+CCC,334 b,"Theft under $5,000",Hybrid,Y,Y,Y,2,2
+CCC,335,TWOC,Summary,Y,Y,Y,2,2
+CCC,342 1 a,Stealing CC,Hybrid,Y,Y,Y,2,10
+CCC,342 1 b,Forging/falsifying CC,Hybrid,Y,Y,Y,2,10
+CCC,342 1 c,PSP / using stolen CC,Hybrid,Y,Y,Y,2,10
+CCC,342 3,Unauthorized use of CC,Hybrid,Y,Y,Y,2,10
+CCC,343,Robbery,Indictable,N,Y,Y,5,25
+CCC,343 a,Robbery,Indictable,N,Y,Y,5,25
+CCC,343 b,Robbery,Indictable,N,Y,Y,5,25
+CCC,343 c,Robbery,Indictable,N,Y,Y,5,25
+CCC,343 d,Robbery,Indictable,N,Y,Y,5,25
+CCC,344,Robbery (with firearm),Indictable,N,N,N,5,25
+CCC,344 1 a,Robbery (with firearm),Indictable,N,N,N,5,25
+CCC,344 1 a.1,Robbery (with firearm),Indictable,N,N,N,5,25
+CCC,344 1 b,Robbery (with firearm),Indictable,N,N,N,5,25
+CCC,346 1.1 a,Extortion w/ firearm,Indictable,N,N,N,5,25
+CCC,346 1.1 b,Extortion w/o firearm,Indictable,N,Y,Y,5,25
+CCC,348 1 a,Break and enter with intent (not dwelling),Hybrid,Y,Y,Y,2,10
+CCC,348 1 b,Break and enter with intent (not dwelling),Hybrid,Y,Y,Y,2,10
+CCC,348 1 d,Break and enter with intent (dwelling),Indictable,N,Y,Y,2,25
+CCC,349,Being unlawfully in a dwelling-house,Hybrid,Y,Y,Y,2,10
+CCC,349 1,Being unlawfully in a dwelling-house,Hybrid,Y,Y,Y,2,10
+CCC,351,Possession of Break-in Instruments,Hybrid,Y,Y,Y,2,10
+CCC,351 1,Possession of Break-in Instruments,Hybrid,Y,Y,Y,2,10
+CCC,354,PSP - unspecified,Hybrid,Y,Y,Y,2,2
+CCC,354 1,PSP - unspecified,Hybrid,Y,Y,Y,2,2
+CCC,354 1 a,PSP - unspecified,Hybrid,Y,Y,Y,2,2
+CCC,355,PSP - unspecified,Hybrid,Y,Y,Y,2,2
+CCC,355 a,PSP Over,Hybrid,Y,Y,Y,2,10
+CCC,355 b,PSP Under,Hybrid,Y,Y,Y,2,2
+CCC,355.2,Trafficking in property obtained by crime - unspecified,Hybrid,Y,Y,Y,2,10
+CCC,355.5 a,Trafficking in property obtained by crime - over 5k,Hybrid,Y,Y,Y,2,14
+CCC,355.5 b,Trafficking in property obtained by crime - under 5k,Hybrid,Y,Y,Y,2,5
+CCC,356 1 a,Theft of Mail,Hybrid,Y,Y,Y,2,10
+CCC,356 1 a i,Theft of Mail,Hybrid,Y,Y,Y,2,10
+CCC,356 1 a ii,Theft of Mail,Hybrid,Y,Y,Y,2,10
+CCC,356 1 b,Theft of Mail,Hybrid,Y,Y,Y,2,10
+CCC,368 1 a,Using forged document,Hybrid,Y,Y,Y,2,10
+CCC,368 1 b,Using forged document,Hybrid,Y,Y,Y,2,10
+CCC,368 1 d,Using forged document,Hybrid,Y,Y,Y,2,10
+CCC,372 1,Convey false information,Hybrid,Y,Y,Y,2,2
+CCC,372 2,Indecent communications,Hybrid,Y,Y,Y,2,2
+CCC,372 3,Harrassing communications,Hybrid,Y,Y,Y,2,2
+CCC,380 1,Fraud - unspecified,Indictable,Y,Y,Y,5,14
+CCC,380 1 a,Fraud Over,Indictable,Y,Y,Y,5,14
+CCC,380 1 b,Fraud Under,Hybrid,Y,Y,Y,2,2
+CCC,380 1 b i,Fraud Under,Hybrid,Y,Y,Y,2,2
+CCC,380 1 b ii,Fraud Under,Hybrid,Y,Y,Y,2,2
+CCC,402.2 1,Identity theft,Hybrid,Y,Y,Y,2,5
+CCC,403 1 a,Identity fraud - to gain advantage,Hybrid,Y,Y,Y,2,10
+CCC,403 1 b,Identity fraud - to obtain property,Hybrid,Y,Y,Y,2,10
+CCC,403 1 c,Identity fraud - to cause disadvantage,Hybrid,Y,Y,Y,2,10
+CCC,403 1 d,Identity fraud - to avoid arrest,Hybrid,Y,Y,Y,2,10
+CCC,423 1 b,Intimidation by threats,Indictable,N,Y,Y,5,14
+CCC,423.1,Witness intimidation,Indictable,N,Y,Y,5,14
+CCC,430,Mischief,Hybrid,Y,Y,Y,2,2
+CCC,430 1 c,Mischief,Hybrid,Y,Y,Y,2,2
+CCC,430 2,Mischief,Hybrid,Y,Y,Y,2,2
+CCC,430 3,Mischief,Hybrid,Y,Y,Y,2,2
+CCC,430 4,Mischief,Hybrid,Y,Y,Y,2,2
+CCC,430 4 b,Mischief,Hybrid,Y,Y,Y,2,2
+CCC,433,Arson (disregard for human life),Indictable,Y,Y,Y,5,14
+CCC,433 a,Arson (disregard for human life),Indictable,Y,Y,Y,5,14
+CCC,433 b,Arson (disregard for human life),Indictable,Y,Y,Y,5,14
+CCC,434,Arson (damage to property),Indictable,Y,Y,Y,5,14
+CCC,435,Arson (fraudulent purpose),Indictable,Y,Y,Y,5,10
+CCC,436 1,Arson (negligence),Indictable,N,Y,Y,5,5
+CCC,436.1,Possession of Incendiary Materials,Indictable,Y,Y,Y,5,5
+CCC,463 b,"Attempt, accessory",Hybrid,Y,Y,Y,2,10
+CCC,463 6 b,Attempt,Hybrid,Y,Y,Y,5,14
+CCC,467.12 1,Commit offence for criminal org,Indictable,Y,Y,Y,5,14
+CCC,467.13 1,Instruct commission of offence for criminal org,Indictable,Y,Y,Y,5,25
+CCC,490.031,Return of items seized,Summary,Y,Y,Y,2,2
+CCC,490 2,Return of items seized,Summary,Y,Y,Y,2,2
+CCC,490 2 a,Return of items seized,Summary,Y,Y,Y,2,2
+CCC,490 7,Return of items seized,Summary,Y,Y,Y,2,2
+CCC,733.1,Breach of Probation,Hybrid,Y,Y,Y,2,2
+CCC,733.1 1,Breach of Probation,Hybrid,Y,Y,Y,2,2
+CCC,742.5 1,Breach of Probation,Hybrid,Y,Y,Y,2,2
+CCC,742.6,Breach of Probation,Hybrid,Y,Y,Y,2,2
+CCC,742.6 3,Breach of Probation,Hybrid,Y,Y,Y,2,2
+CCC,753.3 1,Breach of LTSO,Hybrid,Y,Y,Y,2,10
+CCC,810 1 a,Peace bond,Summary,Y,Y,Y,2,2
+CCC,811,Breach of Recognizance,Hybrid,Y,Y,Y,2,2
+MVA,24 1,Driving w/o a licence,Summary,Y,Y,Y,2,1
+MVA,102,DWP,Summary,Y,Y,Y,2,1
+MVA,102 a,DWP,Summary,Y,Y,Y,2,1
+MVA,234 1,DWP,Summary,Y,Y,Y,2,1
+MVA,95 1,DWP,Summary,Y,Y,Y,2,1
+CDS,5 1,Trafficking drugs,Hybrid,N,Y,Y,2,25
+CDS,5 2,PPT,Hybrid,N,Y,Y,2,25
+CDS,6 1,Importing drugs,Hybrid,N,Y,Y,2,25
+CCC,4 1,Possession of Cocaine or Heroin,Hybrid,Y,Y,Y,2,7
+SFR,34 1,Fishing regulations offence,Summary,Y,Y,Y,2,1
