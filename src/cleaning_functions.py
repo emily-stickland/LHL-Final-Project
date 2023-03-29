@@ -2,37 +2,65 @@ import pandas as pd
 import numpy as np
 
 
-# Split the Info column into three new columns
+
 def split_info(df):
-    df[['Proceeding', 'Court', 'Statute', 'Offence Number']] = df['Info'].str.split(n=3, expand=True)
+    """
+    @ param df
+    A function to split the Info column into 4 separate columns - 'Proceeding Type', 'Court', 'Statute', 'Offence Number'
+    returns modified df
+    """
+    df[['Proceeding Type', 'Court', 'Statute', 'Offence Number']] = df['Info'].str.split(n=3, expand=True)
+    
     return df
 
 
-# drop columns
+
+
 def drop_cols(df):
+    """
+    A param df
+    A function to drop specified columns
+    returnd modified df
+    """
+
     df.drop(columns = ["Videoconf", "Info", "File", "Name", "Lawyer", 'Statute_x', 'Statute_y'], inplace=True)
     print ("columns: 'Videoconf', 'Info', 'File', 'Name', 'Lawyer', and 'Statute' have been dropped")
     return df
 
 
 
-# define function to drop rows with null values for Days in Court or Offence Number
-def drop_null_rows(df):
-    before = len(df)
 
-    df.dropna(subset=['Days in Court', 'Offence Number'], inplace=True)
+def impute_days_in_court(df):
+    """
+    @ param df
+    A function to fill the number of days in court with the mean of the column
+    returns modified df, and prints the number of rows that have been dropped
+    """
+
+    #df['Days in Court'] = df['Days in Court'].astype(int)
+
+    # Calculate the mean of Days in Court column
+    mean_days_in_court = df['Days in Court'].mean()
+
+    # Replace the NaN values with the mean
+    df['Days in Court'].fillna(mean_days_in_court, inplace=True)
+
+    # Convert the 'Days in Court' column back to integer
     df['Days in Court'] = df['Days in Court'].astype(int)
-    after = len(df)
-    
-    num_dropped = before - after
-    print(f"{num_dropped} rows have been dropped")
+
     return df
 
 
 
-# define function to deal with lawyers
+
 
 def clean_lawyers(df):
+    """
+    @ param df
+    A function to remove punctuation and whitespace from the Lawyer column
+    Returns clean column, plus a second column that indicates whether an accused has a lawyer (1) or not (0)
+    returns modified df
+    """
     
     # remove punctuation and initials from Lawyer column
     df['Lawyer'] = df['Lawyer'].str.replace(r'[^\w\s]','').str.replace(r'\b\w{1,2}\b','')
@@ -47,7 +75,13 @@ def clean_lawyers(df):
 
 
 
-def bail_status(df):
+def preprocess_release_type(df):
+    """
+    @ param df
+    A function to clean the Release Type column
+    Removes whitespace, deletes empty strings and fills NaNs with UNK
+    returns modified df
+    """
     # remove punctuation
     df['Bail Status'] = df['Bail Status'].str.replace(r'[^\w\s]','')
 
@@ -65,63 +99,41 @@ def bail_status(df):
 
 
 
-# define function to one-hot encode In Custody column
-
-def encode_incustody(df):
-    """ 
-    @ param: df
-    A function to one-hot encode whether someone is in custody, not in custody or
-    custodial status is unknown
-    return df)
+def clean_incustody(df):
     """
-    # Replace NaNs with U
-    df['In Custody'].fillna('U', inplace=True)
- 
-    # Remove white spaces from the 'In Custody' column
-    df['In Custody'] = df['In Custody'].str.strip()
+    @ param df
+    A function to clean but not encode the In Custody column
+    Drops NaNs and empty strings
+    prints number of dropped rows
+    Returns modified df with values of 1 : in custody, and 0 : not in custody
+    returns 
+    """
 
-    # Replace empty strings with U
-    df['In Custody'] = df['In Custody'].replace('', 'U')
+    before = len(df)
 
-    # One-hot encode In Custody column
-    custody_df = pd.get_dummies(df['In Custody'], prefix='custody')
+    # drop NaNs
+    df.dropna(subset=['In Custody'], inplace=True)
 
-    # Concatenate encoded column to original dataframe
-    df = pd.concat([df, custody_df], axis=1)
+    # remove whitespace
+    df['In Custody'] = df['In Custody'].str.strip().str.rstrip()
 
-    # Rename columns
-    df.rename(columns = {'custody_N': 'Not in Custody',
-                         'custody_Y': 'Is In Custody',
-                         'custody_U': 'Custody Unknown'}, inplace=True)
-    
-    df.drop(columns ='In Custody', inplace = True)
+    # create a boolean mask to identify rows with empty strings
+    mask = (df['In Custody'] == '')
+
+    # drop rows with missing values or empty strings/spaces
+    df.drop(df[mask].index, inplace=True)
+
+    # display number of dropped rows
+    after = len(df)
+    num_dropped = before - after
+    print(f"{num_dropped} rows have been dropped")
+
+    # create a dictionary to map Y to 1 and N to 0 and replace the values
+    mapping = {'Y': 1, 'N': 0}
+    df['In Custody'] = df['In Custody'].replace(mapping)
 
     return df
 
-
-
-# define function to one-hot encode Court Location column
-
-def encode_courts(df):
-    """ 
-    @ param: df
-    A function to clean and one-hot encode the court location
-    return df)
-    """
- 
-    # Remove white spaces from the 'Court Location' column
-    df['Court Location'] = df['Court Location'].str.strip()
-
-    # One-hot encode Court Location column
-    court_df = pd.get_dummies(df['Court Location'])
-
-    # Concatenate encoded column to original dataframe
-    df = pd.concat([df, court_df], axis=1)
-    
-    # drop the original column
-    df.drop(columns ='Court Location', inplace = True)
-
-    return df
 
 
 
@@ -132,7 +144,7 @@ def clean_offence_codes(df):
     i.e. at least two digits followed by other characters
     (unless the offence is in the CDSA (Controlled Drugs and Substances Act) where offence numbers have a different pattern
     display number of dropped rows 
-    return df)
+    returns modified df)
     """
     # Remove white spaces from the 'In Custody' column and trailing white spaces
     df['Offence Number'] = df['Offence Number'].str.strip().str.rstrip()

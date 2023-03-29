@@ -1,4 +1,11 @@
-def map_bail(df):
+def map_release_type(df):
+    """
+    @ param df
+    A function to map the 30 different types of bail/detention/process based on order of severity
+    Range = 0 for the lease severe (summons) to 8 for the most severe (detention order)
+    Fills missing values with the mean
+    returns modified df with numerical values instead of release codes
+    """
 
     bail_status_dict = {
         'DO': 8,
@@ -33,5 +40,10 @@ def map_bail(df):
         'NP': 0
         }
 
-    df['Bail Status'] = df['Bail Status'].map(bail_status_dict)
+    df['Release Type'] = df['Release Type'].map(bail_status_dict)
+
+    # replace missing values with the mean of the non-missing values
+    release_type_mean = df['Release Type'].mean()
+    df['Release Type'].fillna(release_type_mean, inplace=True)
+
     return df
